@@ -1,9 +1,27 @@
 # browser-history-simulation
-Browser History Simulation using Stack written in Java
 
-# Steps to compile
-javac -d . BrowserHistory.java
+Browser History simulation using `Stack` in Java.
+
+## Build
+
+```bash
+javac -d . BrowserHistory.java 
 javac Main.java
+```
 
-#Steps to run
+## Run
+
+```bash
 java Main
+```
+
+## Usage
+
+- On start, enter the homepage when prompted.
+- Commands:
+	- `visit <url>` — visit a new URL
+	- `back <steps>` — go back up to `<steps>` pages
+	- `forward <steps>` — go forward up to `<steps>` pages
+	- `show` — display back/forward stacks
+	- `help` — show available commands
+	- `exit` — quit the program
